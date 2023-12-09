@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="regis.css">
+    <title>Basic_Form</title>
+</head>
+<body>
+        <nav class="navigation">
+           <ul>
+              <li><a href="regis.html">Registration</a></li>
+              <li><a href="login.html">Login</a></li>
+           </ul>
+        </nav>  
+        <form class="container" onsubmit="confirm()">
+            <h3>REGISTRATION FORM</h3>
+            <input type="text" name="username" id="" placeholder="Enter your name" class="input">
+            <input type="password" name="" id="oldpassword" placeholder="Enter password" class="input" >
+            <input type="password" name="" id="newpassword" placeholder="Confirm password" class="input" >
+           <input type="email" name="" id="" placeholder="Enter your email" class="input">
+           <input type="number" name="" id="" placeholder="Enter your age" class="input">
+            <input type="submit" value="SUBMIT" class="btn">
+        </form>
+</body>
+        <script>
+            // function register()
+            // {
+            //     alert("registered!")
+            // }
+            function confirm()
+            {
+                let a=document.getElementById("oldpassword").value;
+                // let b=document.getElementById("newpassword").value;
+                b=123;
+                
+                if(a==b)
+                {
+                 alert("Password matches!")
+                }
+                else{
+                    alert("oops! password does not matches")
+                }
+            }
+        </script>
+</html>
+
+
+
