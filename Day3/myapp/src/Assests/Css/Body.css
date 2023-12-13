@@ -1,0 +1,41 @@
+body{
+    margin: 0px;
+height: 120vh;
+width: 100vw;
+display: flex;
+align-items: center;
+background-image: url("C:\Users\mithr\OneDrive\Documents\GitHub\React_IRC\Day3\myapp\src\Assests\Img\q6mQEi.webp");
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+.container{
+height: 45vh;
+width: 40vw;
+display: flex;
+background-color: rgb(0, 0, 0);
+color: white;
+word-spacing: 4px;
+justify-content:center;
+align-items:center;
+flex-direction: column;
+gap: 0.25rem;
+border-radius:90%;
+padding-bottom: 130px;
+padding-left: 90px;
+font-weight: 700;
+}
+.btn{
+    height: 30vh;
+    width: 10vw;
+    background-image: url("C:\Users\mithr\OneDrive\Documents\GitHub\React_IRC\Day3\myapp\src\Assests\Img\2I03ZvH (2).webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    align-items: last baseline;
+    justify-content: flex-end;
+}
+  .heading{
+    font-size: 40px;
+  }
