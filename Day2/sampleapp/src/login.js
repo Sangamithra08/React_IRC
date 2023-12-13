@@ -1,6 +1,6 @@
 import './Assests/Css/login.css'
 import Nav from './Components/nav'
-function App(){
+function Login(){
     return(
         <div>
             <nav class="navigation">
@@ -18,4 +18,4 @@ function App(){
         </div>
     )
 }
-export default App
+export default Login

@@ -1,5 +1,5 @@
 import './Assests/Css/regis.css'
-function App()
+function Regis()
 {
     return(
         <div>
@@ -21,3 +21,4 @@ function App()
         </div>
     )
 }
+export default Regis;
