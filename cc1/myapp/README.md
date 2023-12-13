@@ -1,3 +1,23 @@
+
+![home](https://github.com/Sangamithra08/React_IRC/assets/125303233/e430b606-a57a-4154-ba6c-d9ef3502fda0)
+
+![login](https://github.com/Sangamithra08/React_IRC/assets/125303233/3ffffd41-dd8b-4e86-884b-99641b1d1172)
+
+
+![signup](https://github.com/Sangamithra08/React_IRC/assets/125303233/a826d754-febb-4ee2-b1dc-032d45cbbdb7)
+
+
+Welcome to HomeDecorify
+Overview
+HomeDecorify is a dynamic and immersive website built using React, dedicated to online home decorating and interior design. Whether you're looking for inspiration, tips, or ready-to-use design elements, HomeDecorify has you covered. This README file provides essential information about the website's structure, functionalities, and the React components utilized in its development.
+Features:
+Inspiration Galleries: Browse through a curated collection of stunning home decor and interior design ideas to spark your creativity.
+Interactive Design Tools: Experiment with our interactive tools to visualize and plan your dream home decor. Customize color schemes, furniture arrangements, and more.
+Expert Tips and Guides: Access valuable insights from experienced interior designers. Learn about the latest trends, decorating principles, and timeless design techniques.
+Shop the Look: Discover and purchase the products featured in your favorite designs directly through our integrated shopping platform.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
