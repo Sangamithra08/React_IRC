@@ -1,3 +1,8 @@
+
+![homepage](https://github.com/Sangamithra08/React_IRC/assets/125303233/0519b258-d22c-4b05-982c-cf8dd6b1ad85)
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
