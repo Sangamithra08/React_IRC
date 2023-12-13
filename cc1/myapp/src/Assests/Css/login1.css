@@ -1,0 +1,274 @@
+
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+}
+
+li {
+float: right;
+}
+nav {
+    width:100vw;
+    background-color: #000000;
+    height: 8vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    }
+    
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    }
+    .text{
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        font-size: 20px;
+        font-family:cursive;
+    }
+    li {
+    float: right;
+    }
+    
+    a {
+    display: block;
+    color: rgb(255, 255, 255);
+    padding: 14px 16px;
+    align-items: end;
+    justify-content: flex-end;
+    text-decoration: none;
+    }
+    
+    a:hover {
+    background-color: rgb(102, 48, 152);
+    color: white;
+    }
+    .name{
+        color: rgb(255, 255, 255);
+        font-size: 25px;
+      }
+      .name2{
+        color: rgba(70, 19, 121, 0.867);
+        font-size: 25px;
+        font-style: italic;
+       
+        /* background-color: #000000; */
+      }
+      .heading{
+      /* padding-left: 20px; */
+   color: #fff;
+   /* gap: 10rem; */
+    }
+
+
+    html {
+        height: 100%;
+      }
+      body {
+        margin:0;
+        padding:0;
+        font-family: sans-serif;
+        background: linear-gradient(rgb(0, 0, 0), #000000);
+      }
+      
+      .login-box {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        opacity: 500%;
+        width: 400px;
+        padding: 40px;
+        transform: translate(-50%, -50%);
+        background: rgba(0, 0, 0, 0.5);
+        box-sizing: border-box;
+        box-shadow: 0px 1px 31px -1px rgba(107, 22, 159, 0.73);
+-webkit-box-shadow: 0px 1px 31px -8px rgba(107, 22, 159, 0.73);
+-moz-box-shadow: 0px 1px 31px -1px rgba(107, 22, 159, 0.73);
+        border-radius: 10px;
+      }
+      .login-box a input {
+        background-color: transparent; /* Set the initial background color */
+        color: rgb(255, 255, 255); /* Text color */
+        font-size: 17px;
+    }
+      .login-box h2 {
+        margin: 0 0 30px;
+        padding: 0;
+        color: rgb(102, 48, 152);
+        text-align: center;
+      }
+      
+      .login-box .user-box {
+        position: relative;
+      
+      }
+      
+      .login-box .user-box input {
+        width: 100%;
+        padding: 10px 0;
+        font-size: 16px;
+        color: #fff;
+        margin-bottom: 30px;
+        border: none;
+        border-bottom: 1px solid #fff;
+        outline: none;
+        background: transparent;
+      }
+      .login-box .user-box input::placeholder {
+        color: white;
+      }
+      .login-box .user-box label {
+        position: absolute;
+        top:0;
+        left: 0;
+        padding: 10px 0;
+        font-size: 16px;
+        color: #fff;
+        pointer-events: none;
+        transition: .5s;
+      }
+      
+      .login-box .user-box input:focus ~ label,
+      .login-box .user-box input:valid ~ label {
+        top: -20px;
+        left: 0;
+        color: rgb(102, 48, 152);
+        font-size: 12px;
+      }
+      
+      .login-box form a {
+        position: relative;
+        display: inline-block;
+        padding: 10px 20px;
+        color: rgb(102, 48, 152);
+        font-size: 16px;
+        text-decoration: none;
+        text-transform: uppercase;
+        overflow: hidden;
+        transition: .5s;
+        margin-top: 40px;
+        letter-spacing: 4px
+      }
+      
+      .login-box a:hover {
+        background: rgb(102, 48, 152);
+        color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 5px rgb(102, 48, 152),
+                    0 0 25px rgb(102, 48, 152),
+                    0 0 50px rgb(102, 48, 152),
+                    0 0 100px rgb(102, 48, 152);
+      }
+      
+      .login-box a span {
+        position: absolute;
+        display: block;
+      }
+      
+      .login-box a span:nth-child(1) {
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 2px;
+        background: linear-gradient(90deg, transparent, rgb(102, 48, 152));
+        animation: btn-anim1 1s linear infinite;
+      }
+      
+      @keyframes btn-anim1 {
+        0% {
+          left: -100%;
+        }
+        50%,100% {
+          left: 100%;
+        }
+      }
+      
+      .login-box a span:nth-child(2) {
+        top: -100%;
+        right: 0;
+        width: 2px;
+        height: 100%;
+        background: linear-gradient(180deg, transparent, rgb(102, 48, 152));
+        animation: btn-anim2 1s linear infinite;
+        animation-delay: .25s
+      }
+      
+      @keyframes btn-anim2 {
+        0% {
+          top: -100%;
+        }
+        50%,100% {
+          top: 100%;
+        }
+      }
+      
+      .login-box a span:nth-child(3) {
+        bottom: 0;
+        right: -100%;
+        width: 100%;
+        height: 2px;
+        background: linear-gradient(270deg, transparent, rgb(102, 48, 152));
+        animation: btn-anim3 1s linear infinite;
+        animation-delay: .5s
+      }
+      
+      @keyframes btn-anim3 {
+        0% {
+          right: -100%;
+        }
+        50%,100% {
+          right: 100%;
+        }
+      }
+      
+      .login-box a span:nth-child(4) {
+        bottom: -100%;
+        left: 0;
+        width: 2px;
+        height: 100%;
+        background: linear-gradient(360deg, transparent, rgb(102, 48, 152));
+        animation: btn-anim4 1s linear infinite;
+        animation-delay: .75s
+      }
+      
+      @keyframes btn-anim4 {
+        0% {
+          bottom: -100%;
+        }
+        50%,100% {
+          bottom: 100%;
+        }
+      }
+      
+    .heading{
+        padding-right: 900px;
+    }
+    body{
+      background-image:url("C:\Users\mithr\OneDrive\Desktop\r\project\myapp\src\Assests\Css\Screenshot 2023-12-13 102329.png") ;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+    }
+    .footer {
+      background-color: #000000;
+      color: #fff;
+      padding-left: 300px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 33.5rem;
+    }
+    
+    .column {
+      text-align: left;
+    }
+    
+    .fhead{
+      color: #63148e;
+    }
+  

@@ -1,0 +1,125 @@
+
+body{
+    margin: 0px;
+height: 120vh;
+width: 100vw;
+/* justify-content: center; */
+display: flex;
+align-items: center;
+background-color: black;
+/* background-image: url("C:\Users\mithr\OneDrive\Documents\GitHub\React_IRC\Day3\myapp\src\Assests\Img\q6mQEi.webp"); */
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+.container{
+height: 45vh;
+width: 40vw;
+display: flex;
+background-color: rgb(0, 0, 0);
+color: white;
+word-spacing: 4px;
+justify-content:flex-start;
+align-items:center;
+flex-direction: column;
+gap: 0.25rem;
+border-radius:60%;
+padding-bottom: 140px;
+padding-left: 90px;
+font-weight: 700;
+
+}
+.btn{
+    height: 50vh;
+    width: 10vw;
+    background-image: url("C:\Users\mithr\OneDrive\Documents\GitHub\React_IRC\Day3\myapp\src\Assests\Img\2I03ZvH (2).webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    align-items: last baseline;
+    justify-content: flex-end;
+}
+
+.dot {
+    height: 35px;
+    width: 35px;
+    background-color: #511b84;
+    border-radius: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    
+  }
+.dot1 {
+    height: 180px;
+    width: 180px;
+    background-color: #6938a4;
+    border-radius: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    
+  }
+  .heading{
+    font-size: 40px;
+  }
+
+  nav {
+    width:100vw;
+    background-color: #070307;
+    height: 8vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    }
+    
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    }
+    .text{
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        font-size: 20px;
+        font-family:cursive;
+    }
+    li {
+    float: right;
+    }
+    
+    a {
+    display: block;
+    color: rgb(255, 255, 255);
+    padding: 14px 16px;
+    /* font-size: 0px; */
+    align-items: end;
+    justify-content: flex-end;
+    text-decoration: none;
+    font-style: italic;
+    }
+    
+    navigation:hover {
+    background-color:rgb(89, 29, 104);
+    color: white;
+    }
+    
+    .name{
+        color: rgb(255, 255, 255);
+        font-size: 25px;
+       padding-left: 40px;
+      }
+      .name2{
+        color: #420f71;
+        font-size: 25px;
+        /* padding-left:px; */
+
+    }
+
+    .footer{
+      background-color: #000000;
+      gap: 19rem;
+    }
