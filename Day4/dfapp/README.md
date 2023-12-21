@@ -1,3 +1,9 @@
+![Day4_1](https://github.com/Sangamithra08/React_IRC/assets/125303233/51fee329-3764-43af-9662-5017c9da3b4b)
+
+![Day4_2](https://github.com/Sangamithra08/React_IRC/assets/125303233/7a1a5905-3aee-439f-928e-11b74e38bba3)
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
