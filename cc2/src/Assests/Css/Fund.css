@@ -1,0 +1,44 @@
+body{
+    overflow-x: hidden;
+ }
+  .sidebar {
+    position: fixed;
+    left: -16em;
+    top: 0;
+    bottom: 0;
+    width: 15em; /* Set a width for the sidebar */
+    background-color: #fdcfff;
+    background-color: #fdcfff;
+    cursor: pointer;
+  }
+  
+  .sidebar:after {
+    position: absolute;
+    content: ' ';
+    width: 0;
+    height: 0;
+    right: -50px;
+    top: 50%;
+    border-width: 15px 10px;
+    border-style: solid;
+    border-color: transparent transparent transparent #6bb0a4;
+  }
+  
+  .sidebar ul {
+    width: 14em;
+    list-style-type: none;
+    margin: 0;
+    padding: 1em;
+  }
+
+  .sidebar a:hover,
+  .sidebar a:focus {
+    color: #fff;
+    background-color: darken(#bada55, 20%);
+    text-shadow: 0 0 4px #fff;
+    box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.2);
+  }
+  
+  .sidebar:hover {
+    left: 0;
+  }

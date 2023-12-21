@@ -1,0 +1,83 @@
+.login-container{
+    height: 90vh;
+    width: 100vw;
+}
+.login-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    opacity: 500%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: #b3eadcac;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 31px -1px rgb(91, 139, 126);
+    -webkit-box-shadow: 0px 1px 31px -8px rgb(91, 139, 126);
+    -moz-box-shadow: 0px 1px 31px -1px rgb(91, 139, 126);
+    border-radius: 10px;
+}
+
+
+.heading-login {
+    margin: 0 0 30px;
+    padding: 0;
+    color: rgb(78, 194, 159);
+    text-align: center;
+}
+
+.login-box .user-box {
+    position: relative;
+
+}
+
+.login-box .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #383838;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+
+.login-box .user-box input::placeholder {
+    color: rgb(80, 76, 76);
+}
+.submit-btn {
+    position: fixed;
+    padding: 10px 20px;
+    color: rgb(21, 45, 141);
+    transition: .5s;
+}
+
+.submit-btn:hover {
+    background: rgb(91, 139, 126);
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgb(91, 139, 126),
+        0 0 25px rgb(91, 139, 126),
+        0 0 50px rgb(91, 139, 126),
+        0 0 100px rgb(91, 139, 126);
+}
+
+.submit-btn {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+
+.sub-main{
+    height: 14vh;
+    width: 20vw;
+    margin: 0px;
+}
+.btn-last{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    flex-direction: column;
+}
