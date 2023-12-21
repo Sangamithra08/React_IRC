@@ -73,7 +73,7 @@ const Dashboard = () => {
                         </li>
                     </ul>
                     <div>
-                        <button className="logout"><FontAwesomeIcon icon={faArrowRightFromBracket} rotation={180} />Logout</button>
+                        <button className="logout" ><FontAwesomeIcon icon={faArrowRightFromBracket} rotation={180} />Logout</button>
                     </div>
                 </div>
                

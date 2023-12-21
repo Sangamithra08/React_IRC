@@ -6,7 +6,7 @@ import Login from "./Pages/Login";
 import { Route, Routes } from 'react-router-dom'
 import Nav from "./Component/Nav";
 import Footer from "./Component/Footer";
-import Fund from "./Pages/Fund";
+// import Fund from "./Pages/Fund";
 
 function App() {
    return (
@@ -20,7 +20,7 @@ function App() {
             <Route path="/Signup" element={<Signup />} />
 
          </Routes>
-         <Fund />
+         {/* <Fund /> */}
          <Footer />
       </>
    );

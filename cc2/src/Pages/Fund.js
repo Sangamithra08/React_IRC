@@ -6,12 +6,12 @@ function Fund() {
         <>
             <nav className='sidebar'>
                 <ul>
-                    <Link to='/dashboard'><li><a href="#">DASHBOARD</a></li></Link>
-                    <li><a href="#">PROBLEMS</a></li>
-                    <li><a href="#">FUNDS</a></li>
-                    <li><a href="#">IN DEMAND</a></li>
-                    <li><a href="#">TOP DONATERS</a></li>
-                    <li><a href="#">BENEFICIARIES</a></li>
+                    <Link to='/contact'><li className='side-text'><a href="#">DASHBOARD</a></li></Link>
+                    <li className='side-text'><a href="#">PROBLEMS</a></li>
+                    <li className='side-text'><a href="#">FUNDS</a></li>
+                    <li className='side-text'><a href="#">IN DEMAND</a></li>
+                    <li className='side-text'><a href="#">TOP DONATERS</a></li>
+                    <li className='side-text'><a href="#">BENEFICIARIES</a></li>
                   
                 </ul>
             </nav>
