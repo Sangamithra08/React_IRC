@@ -39,7 +39,7 @@ const NavBar = () => {
                         <label className="name">Home</label>
                         <label className="name2">Design</label>
                     </div>
-                    <li><Link to="#" onClick={toggle}>Login</Link></li>
+                    {/* <li><Link to="#" onClick={toggle}>Login</Link></li> */}
                    <li><Link to="/Dashboard">Dashboard</Link></li> 
                    <li> <Link to="/Login1">About</Link></li>
                    <li> <Link to="/Login1">Contact</Link></li>
